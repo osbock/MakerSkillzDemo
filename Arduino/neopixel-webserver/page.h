@@ -6,11 +6,11 @@ char page[] = "<!DOCTYPE html>\n\
   border-radius: 8px;\n\
   border: none;\n\
   color: white;\n\
-  padding: 20px;\n\
+  padding: 1em;\n\
   text-align: center;\n\
   text-decoration: none;\n\
   display: inline-block;\n\
-  font-size: 16px;\n\
+  font-size: 4em;\n\
   margin: 4px 2px;\n\
   cursor: pointer;\n\
 }\n\

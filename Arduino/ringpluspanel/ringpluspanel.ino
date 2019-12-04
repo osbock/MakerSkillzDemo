@@ -1,4 +1,3 @@
-
 #include <Adafruit_NeoPixel.h>
 
 // Which pin on the Arduino is connected to the NeoPixels?
@@ -15,13 +14,9 @@
 Adafruit_NeoPixel ring(LED_COUNT1, LED_PIN1, NEO_GRB + NEO_KHZ800);
 Adafruit_NeoPixel panel(LED_COUNT2, LED_PIN2, NEO_GRB + NEO_KHZ800);
 
-
-
 // setup() function -- runs once at startup --------------------------------
 
 void setup() {
-  
-  // END of Trinket-specific code.
 
   ring.begin();           // INITIALIZE NeoPixel strip object (REQUIRED)
   panel.begin();
@@ -38,19 +33,13 @@ long lastPanelUpdate = 0L;
 #define PANELRATE 100
 #define RINGRATE 100
 void loop() {
-
-    
   if ((millis() - lastRingUpdate) > RINGRATE){
     lastRingUpdate = millis();
     rainbow();
   }
-
-  
 }
 
-
-
-// Rainbow cycle along whole ring. Pass delay time (in ms) between frames.
+// Rainbow cycle along whole ring. 
 void rainbow() {
   // Hue of first pixel runs 5 complete loops through the color wheel.
   // Color wheel has a range of 65536 but it's OK if we roll over, so
