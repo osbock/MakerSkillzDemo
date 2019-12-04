@@ -1,2 +1,2 @@
-#define SECRET_SSID "donkey"
-#define SECRET_PASS "dong"
+#define SECRET_SSID ""
+#define SECRET_PASS ""
