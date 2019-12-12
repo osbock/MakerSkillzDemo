@@ -5,6 +5,7 @@ An object designed to exercise many of the tools at the Garden
 The main program for this workshop is neopixel-webserver
 ### Setup
 In Arduino set preferences to point the sketchbook folder to the arduino directory of this repo.
+[Change Arduino Preferences](./assets/Arduino-prefs.png)
 
  * save and reopen arduino
  * open neopixel-webserver from the sketchbook menu
