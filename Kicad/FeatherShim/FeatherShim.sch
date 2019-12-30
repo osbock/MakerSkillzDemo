@@ -103,4 +103,63 @@ Wire Wire Line
 	4575 4150 4800 4150
 Wire Wire Line
 	4575 4250 4800 4250
+Text Label 4650 3150 0    50   ~ 0
+BAT
+Text Label 4650 3350 0    50   ~ 0
+USB
+Text Label 3250 2850 0    50   ~ 0
+3V3
+Text Label 3250 3050 0    50   ~ 0
+GND
+$Comp
+L power:+BATT #PWR?
+U 1 1 5E0A5FE2
+P 5650 2650
+F 0 "#PWR?" H 5650 2500 50  0001 C CNN
+F 1 "+BATT" H 5665 2823 50  0000 C CNN
+F 2 "" H 5650 2650 50  0001 C CNN
+F 3 "" H 5650 2650 50  0001 C CNN
+	1    5650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E0A66A3
+P 6100 2850
+F 0 "#PWR?" H 6100 2600 50  0001 C CNN
+F 1 "GND" H 6105 2677 50  0000 C CNN
+F 2 "" H 6100 2850 50  0001 C CNN
+F 3 "" H 6100 2850 50  0001 C CNN
+	1    6100 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 5E0A72D7
+P 5900 2650
+F 0 "#PWR?" H 5900 2500 50  0001 C CNN
+F 1 "VBUS" H 5915 2823 50  0000 C CNN
+F 2 "" H 5900 2650 50  0001 C CNN
+F 3 "" H 5900 2650 50  0001 C CNN
+	1    5900 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2850 6100 2750
+Wire Wire Line
+	6100 2750 6250 2750
+Text Label 6250 2750 0    50   ~ 0
+GND
+Wire Wire Line
+	5650 2650 5650 2750
+Wire Wire Line
+	5650 2750 5500 2750
+Text Label 5500 2750 0    50   ~ 0
+BAT
+Wire Wire Line
+	5900 2650 5900 2750
+Wire Wire Line
+	5900 2750 5700 2750
+Text Label 5700 2750 0    50   ~ 0
+USB
 $EndSCHEMATC
