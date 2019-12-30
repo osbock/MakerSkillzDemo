@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name FeatherShimLibs)(type KiCad)(uri ${KIPRJMOD}/FeatherShimLibs.pretty)(options "")(descr ""))
+)
